@@ -151,3 +151,5 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
+// $ go build wiki.go
+// $ ./wiki
